@@ -7,16 +7,16 @@
       "id": 1
     },
     {
-      "text": "Hangout with Friends",
-      "day": "5rd March at 07:00 PM",
-      "reminder": true,
-      "id": 2
-    },
-    {
       "text": "Dinner at Restaurant",
       "day": "1st March at 07:00 PM",
-      "reminder": false,
+      "reminder": true,
       "id": 3
+    },
+    {
+      "text": "Hangout with Friends",
+      "day": "3rd March at 03:00PM",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
