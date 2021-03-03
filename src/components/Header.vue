@@ -1,7 +1,10 @@
 <template>
   <header>
     <h1>{{title}}</h1>
-    <Button text="Add Task" color="purple"/>
+    <Button 
+      :text="showAddTask ? 'Close' : 'Add Task'" 
+      :color="showAddTask ? 'red' : 'green'"
+      @btn-click="$emit('btn-click')"/>
   </header>
 </template>
 
@@ -12,7 +15,8 @@ export default {
   name: 'Header',
   // props: ['title']
   props: {
-    title: String
+    title: String,
+    showAddTask: Boolean
   }, 
   // props: {
   //   title: {
@@ -22,7 +26,8 @@ export default {
   // }
   components: {
     Button
-  } 
+  },
+  emits: ['btn-click'] 
 }
 </script>
 
