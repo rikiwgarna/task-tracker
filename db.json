@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Meeting at School",
+      "day": "3rd March at 09:00AM",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Hangout with Friends",
+      "day": "5rd March at 07:00 PM",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Dinner at Restaurant",
+      "day": "1st March at 07:00 PM",
+      "reminder": false,
+      "id": 3
+    }
+  ]
+}
